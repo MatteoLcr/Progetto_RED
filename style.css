@@ -1,0 +1,194 @@
+/* Color: darkred, #C67F7F, #ececec
+
+Font:  Nova Square, Rajdhani */
+
+
+  *{
+    font-family: nova square;
+  }
+
+
+  .head-container{
+    height: 80vh;
+    width: 100%;
+    background: url(./media/mountains2.png),linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .navbar{
+    background-color: white;
+  }
+
+  .logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(./media/logo.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .link-container{
+    list-style: none;
+  }
+
+
+  h1{
+    font-size: 50px;
+    color: darkred;
+  }
+
+  h2{
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+  }
+
+  .parag-container{
+    background-color: #ECECEC;
+  }
+
+  body{
+    background-color: #ECECEC;
+  }
+
+  .iconecard{
+    color: darkred;
+    font-size: 45px;
+  }
+
+  .paragrafo1{
+    border-bottom: 5px solid darkred;
+    position: relative;
+  }
+
+  .box1{
+    width: 20%;
+  }
+
+
+  .paragrafo1::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border: 3px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 48px;
+    right: 130px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .paragrafo1::after{
+      top: 95px;
+      right: 130px;
+    }
+  }
+
+  .titolino{
+    color: darkred;
+
+  }
+
+  .textcontainer2{
+    margin-top: 200px;
+    height:80vh;
+    background: url(./media/trees2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .textcontainer2 {
+      margin-top: 100px;
+    }
+  }
+
+  .txt2{
+    color: rgb(83, 83, 83);
+  }
+
+  .btn1{
+    background-color: darkred;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    color: white;
+    margin-top: 100px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.529);
+  }
+
+  .cont3{
+    height:110vh;
+    background: url(./media/single.png);
+    background-size: contain;
+    background-color: white;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+
+  .boxtimeline{
+    border-left: 5px solid darkred;
+  }
+
+  .timeline{
+    position: relative;
+  }
+
+  .timeline::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border: 3px solid darkred;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 1242px;
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .timeline::before{
+      right: 335px;
+    }
+  }
+
+  
+
+
+
+  .image{
+    height: 150px;
+    width: 150px;
+    background-image:url(./media/fog.jpg);
+    border: 7px solid darkred;
+    border-radius: 50%;
+  }
+
+  .titolo4{
+    color: darkred;
+    font-weight: 500;
+  }
+
+  .logsocial{
+    list-style:none ;
+  }
+
+  .imgbg{
+    height: 50vh;
+    background-image:url(./media/other.png);
+  }
+
+  
+
+
+  .cont6{
+    background-color: darkred;
+    /* height: 50vh; */
+  }
